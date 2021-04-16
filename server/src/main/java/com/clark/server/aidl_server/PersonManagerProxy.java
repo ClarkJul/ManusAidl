@@ -4,16 +4,18 @@ import android.os.IBinder;
 import android.os.Parcel;
 import android.os.RemoteException;
 
+
 import com.clark.server.aidl_server.bean.PersonBean;
 
 import java.util.List;
+
 
 public class PersonManagerProxy implements PersonManager {
     /**
      * 远程binder对象
      */
     IBinder remote;
-    private static final String DESCRIPTOR = "com.clark.server.aidl_server.PersonManager";
+    //private static final String DESCRIPTOR = "com.clark.server.aidl_server.PersonManager";
 
     /**
      * 构造方法传入ibinder

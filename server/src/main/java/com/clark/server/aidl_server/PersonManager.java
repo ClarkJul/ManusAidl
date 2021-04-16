@@ -7,7 +7,9 @@ import com.clark.server.aidl_server.bean.PersonBean;
 
 import java.util.List;
 
+
 public interface PersonManager extends IInterface {
+    final String DESCRIPTOR = "com.clark.server.aidl_server.PersonManager";
     /**
      * 添加人数
      *

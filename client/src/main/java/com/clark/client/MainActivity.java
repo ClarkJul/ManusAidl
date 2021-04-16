@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent=new Intent();
                 intent.setPackage("com.clark.server");
                 intent.setAction("com.clark.aidl.remote.service");
-                intent.setComponent(new ComponentName("com.clark.server","com.clark.aidl.remote.service"));
+                //intent.setComponent(new ComponentName("com.clark.server","com.clark.aidl.remote.service"));
 
                 boolean result=bindService(intent,mConnection, Context.BIND_AUTO_CREATE);
                 Log.d(TAG, "onClick: " + result);

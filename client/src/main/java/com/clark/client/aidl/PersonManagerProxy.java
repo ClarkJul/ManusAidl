@@ -12,7 +12,7 @@ public class PersonManagerProxy implements PersonManager {
      * 远程binder对象
      */
     IBinder remote;
-    private static final String DESCRIPTOR = "com.clark.server.aidl_server.PersonManager";
+    //private static final String DESCRIPTOR = "com.clark.server.aidl_server.PersonManager";
 
     /**
      * 构造方法传入ibinder

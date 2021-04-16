@@ -11,7 +11,7 @@ import com.clark.server.aidl_server.bean.PersonBean;
 import java.util.List;
 
 public abstract class PersonManagerStub extends Binder implements PersonManager {
-    private static final String DESCRIPTOR = "com.clark.server.aidl_server.PersonManager";
+    //private static final String DESCRIPTOR = "com.clark.server.aidl_server.PersonManager";
 
     public PersonManagerStub() {
         this.attachInterface(this, DESCRIPTOR);
